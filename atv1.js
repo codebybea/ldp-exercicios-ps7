@@ -101,17 +101,17 @@ bebida();
 
 // soma
 function calcularSoma() {
-    const n1 = parseFloat(main("Digite o primeiro número: "));
-    const n2 = parseFloat(main("Digite o segundo número: "));
+    const n1 = parseFloat(main("Digite um o número: "));
+    const n2 = parseFloat(main("Digite um segundo número: "));
     const soma = n1 + n2;
     return console.log(`A soma dos números é: ${soma}`);
   }
   
   calcularSoma()
 
-// masterchef
-function masterchef(prato) {
-    return `Esse eh um ${prato} digno de ganhar o masterchef!!`
+// jogo
+function jogo(thebest) {
+    return `O Jogo ${thebest} é o MELHOR jogo!!`
 }
-let comida = main('Escreva o nome do prato: ');
-console.log(masterchef(comida));
+let comida = main('Escreva o nome do melhor jogo na sua opn: ');
+console.log(jogo(thebest));
